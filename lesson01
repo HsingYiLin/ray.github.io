@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>test</title>
+</head>
+<body onload="init()">
+    <div>
+        <h2>input元素</h2>
+            <div>
+                <h2>1.text輸入框</h2>
+                <input type="text" id="title"></input>
+            </div> 
+            
+            <div>
+                <h2>2.button按鈕</h2>
+                <button id="btn">click</button>
+            </div>
+            
+            <div>
+                <h2>3.password密碼</h2>
+                <input type="password" id="passwd"></input>
+            </div>
+            
+            <div>
+                <h2>4.checkbox複選</h2>
+                <label>
+                    <input type="checkbox"  name="dinner" value="西式"  >西式
+                </label>
+        
+                <label>
+                    <input type="checkbox"  name="dinner" value="中式" checked>中式
+                </label>
+            </div> 
+            
+            <div>
+                <h2>5.radio單選</h2>
+                <label>
+                <input type="radio"  name="sex" value="男">男
+                </label>
+                
+                <label>
+                <input type="radio"  name="sex" value="女" checked>女
+                </label>
+            </div>
+            
+            <div>
+                <h2>6.select下拉式選單</h2>
+                <select name="" id="select">
+                    <option value="程式">程式</option>
+                    <option value="客服">客服</option>
+                    <option value="人事">人事</option>
+                    <option value="美工">美工</option>
+                    <option value="MIS">MIS</option>
+                </select>
+            </div>
+    </div>
+    
+    <!-- <div class="iframe">
+        <h2>iframe 載入一個www.google.com的網頁</h2>
+        <iframe width="800px" height="600px" src="https://www.google.com" frameborder="0"></iframe>
+    </div> -->
+    <br>
+    <br>
+    <br>
+    <div>
+        <input type="button" id="btn2" value="submit">
+    </div>
+
+    <div id="list">
+       
+    </div>
+
+
+    <script src="test.js"></script>
+
+
+</body>
+</html>
+
+
